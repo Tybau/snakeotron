@@ -1,7 +1,7 @@
 /*
 * ------------------------ *
 |                          |
-|   -= snakeAPI =-     |
+|   -= snakeAPI =-         |
 |                          |
 | based on                 |
 | Coding Game Server       |
