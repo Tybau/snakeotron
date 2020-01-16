@@ -42,7 +42,7 @@ class ClientAPI:
 		self.dispDebug(fct, 3, "Receive acknowledgment from the server")
 
 	def read_inbuf(self, fct):
-		length = int(self.sock.recv(4).decode())
+		length = int(self.sock.recv(6).decode())
 
 		self.dispDebug(fct, 3, "prepare to receive a message of length :%lu" % length)
 
